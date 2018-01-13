@@ -1,0 +1,17 @@
+import java.util.Scanner; 
+public class Example_Random {
+	public static void main(String[] args) {
+	Scanner S1 = new Scanner(System.in);
+	System.out.println("Max value:");
+	String S3 = S1.nextLine();
+	Scanner S2 = new Scanner(System.in);
+	System.out.println("Min value:");
+	String S4 = S2.nextLine();
+	int A1 = Integer.parseInt(S3);
+	int A2 = Integer.parseInt(S4);
+	double A3 = Math.floor(Math.random()*(A1) + (A2));
+	System.out.println("And here is your randomly generated number: " + A3);
+	S1.close();
+	S2.close();
+	}
+}
