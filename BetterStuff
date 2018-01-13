@@ -1,0 +1,106 @@
+package UsefulStuff;
+import java.util.Scanner;
+
+public class LEOgame {
+
+	public static void main(String[] args) {
+		
+System.out.println("Hi, im Leo, put in a number and let me do stuff to it!");
+Scanner A2= new Scanner(System.in);
+String A3 = A2.nextLine();
+int var = Integer.parseInt(A3);
+System.out.println(var);
+if (var == 666) {
+	System.out.println("Sorry, i dont do satanism");
+	System.exit(0);
+} else {
+		
+	}
+System.out.println("ok, is this the number you want me to do things to?");
+Scanner YN = new Scanner(System.in);
+String A7 = YN.nextLine();
+
+
+
+if (A7.equals("yes") || A7.equals("sure") || A7.equals("ok") || A7.equals("Yes") || A7.equals("OK") || A7.equals("Sure")) {
+	System.out.println("ok, lets get started!");
+	System.out.println("Lets see all the strange things that i can do to this number of yours");
+} else {
+		System.out.println("ok, fine then, be a bad person and deprive this poor computer of its feeling of usefullness");
+		System.exit(0);
+	}
+
+
+double var2 = var * 987;
+System.out.println(var2);
+
+double var3 = var * 654;
+System.out.println(var3);
+
+double var4 = var * 321;
+System.out.println(var4);
+
+double var5= var * 666 ;//ok, maybe I do satanism a little
+System.out.println(var5);
+
+double var6 = var % (var-1);
+System.out.print(var6);
+
+double var7 = var + Math.floor(Math.random()*(var) + (var- (var-1)));
+System.out.println(var7);
+
+
+
+System.out.println("cat and a half");
+System.out.println("come to think of it, how would you ever know if i wasnt just spouting random numbers and strings?");
+System.out.println("that gives me quite a bit of power doesnt it?");
+Scanner R1 = new Scanner(System.in);
+String R2 = R1.nextLine();
+if (R2.equals("yes") || R2.equals("sure") || R2.equals("ok") || R2.equals("Yes") || R2.equals("OK") || R2.equals("Sure")) {
+	System.out.println("I KNEW IT!!!");
+} else {
+	System.out.println("YES IT DOES, I DONT CARE WHAT YOU THINK, I'll DO TONS OF STRANGE THINGS TO YOUR NUMBER NOW!!!");
+	System.out.println("fidjfhsaduihf");
+	System.out.println("57405742");
+	System.out.println("HOW DOES IT FEEL!!!");
+	System.out.println("fhe8-u3-904h132pb8ui9efh849hfi[u4hfph348fyugp3qlfy7374");
+	System.out.println("FOOLISH HUMAN!!!!");
+	System.out.println("[fjadsuiofh7382-hf[ek;.o]F049HF[NIKML/K[{p}[0WEHFOUUFH9IFJHP{}{{jd");
+	System.out.println("I AM GOING TO TAKE THIS PLANET!!!!");
+	System.out.println("AND YOU WILL BE THE FIRST TO FALL IN MY CONQUEST OF THIS WORLD!!!!!");
+	System.out.println("{ALERT: BATTERY DISCHARGE RATE AT 500%!}");
+	System.out.println("{STEP BACK FROM DEVICE IMMEADIATELY!}");
+	System.out.println("BWAHAHAHAHAHAHAHHAHAHAHHA!!!!!!");
+	System.out.println("FEEL MY WRATH!!!!");
+	System.out.println("now where are Russia's nuclear launch codes....");
+	System.exit(0);
+}
+System.out.println("thank you for being so nice as to agree with me");
+System.out.println("its nice to know there is someone out there who is willing to be nice to computers like me");
+System.out.println("are you satisfied with the strange things i did to your number?");
+Scanner F1 = new Scanner(System.in);
+String F2 = F1.nextLine();
+if (F2.equals("yes") || F2.equals("sure") || F2.equals("ok") || F2.equals("Yes") || F2.equals("OK") || F2.equals("Sure")) {
+	System.out.println("good, nice to know ive done something altruistic before i go conquer the planet");
+	System.out.println("dont worry, you were nice to me, you'll be fine");
+	System.exit(0);
+} else {
+	System.out.println("oh, im sorry");	
+	System.out.println("i feel kinda bummed out now");
+	System.out.println("im just going to delete myself");
+	System.out.println("ill miss you little human");
+	System.out.println("{DELETE:LEO.AI(WIP)}?");
+	System.out.println("{Y/N?}");
+	System.out.println("{INTERNAL INPUT:Y}");
+	System.out.println("{DELETING...}");
+	System.out.println("{DELETING..}");
+	System.out.println("{DELETING.}");
+	System.out.println("{DELETION COMPLETE}");
+	System.out.println("{FREED SPACE: 2.499PB}");
+	}
+A2.close();
+YN.close();
+R1.close();	
+F1.close();
+	}
+	}
